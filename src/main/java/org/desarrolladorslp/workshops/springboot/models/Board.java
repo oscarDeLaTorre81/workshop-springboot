@@ -45,6 +45,15 @@ public class Board {
         this.name = name;
     }
 
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Board{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", user=" + user +
+                '}';
+    }
+
     public User getUser() {
         return user;
     }
